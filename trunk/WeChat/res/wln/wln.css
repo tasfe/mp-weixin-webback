@@ -1,0 +1,5 @@
+﻿.wlntable{ width:99%; padding: 0px;margin: 0px auto; text-align:center;border-collapse:collapse;font-family:Arial, Tahoma, Verdana, Sans-Serif,宋体;border-top:1px solid #cccccc;border-left:1px solid #cccccc;}
+.wlntable td {font-size:12px;padding:2px 1px; border-bottom:1px solid #aaaaaa; border-right:1px solid #cccccc;word-break:break-all;word-wrap:break-word;white-space:normal;}
+.wlntable td.cell{ padding:5px 1px;}
+.wlntable td a{ text-decoration:none; }
+

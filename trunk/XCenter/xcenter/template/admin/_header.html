@@ -1,0 +1,45 @@
+﻿
+            <div id="header">
+                <div id="top">
+                    <div class="logo"> 
+                        <a href="{FrameworkRoot}../admin/default.aspx"><img src="{FrameworkRoot}static/assets/logo.png" /></a> 
+                    </div>
+                    <div class="meta">
+                        <p>您好,<a id="loginUser" href="#" style="color:Aqua;">...</a>,这是你第<span id="loginTime" style="color:Aqua;">...</span>次登陆!<a href="/" target="_blank" style="color:Aqua;">网站首页</a></p>
+                        <ul>
+                            <li><a href="javascript:LoginOut();" onclick="" ><span class="ui-icon ui-icon-power"></span>退出登录</a></li>
+                            <li><a href="javascript:GotoCode('{FrameworkRoot}../admin/sys/setting.aspx','WebSiteSetting');" ><span class="ui-icon ui-icon-wrench"></span>系统设置</a></li>
+                            <li><a href="{FrameworkRoot}../admin/sys/pwdset.aspx" ><span class="ui-icon ui-icon-person"></span>个人中心</a></li>
+                        </ul>	
+                    </div>
+                </div>
+                <div id="navbar">
+                    <ul class="nav" id="nav">
+                        <li><a href="{FrameworkRoot}../admin/default.aspx">主页</a></li>
+                        <li><a href="#">网站管理</a>
+                            <ul style=" left:-1000;">
+                                <li><a href="javascript:GotoCode('{FrameworkRoot}../admin/sys/setting.aspx','WebSiteSetting');">系统设置</a></li>
+                                <li><a href="javascript:GotoCode('{FrameworkRoot}../admin/sys/account.aspx','AccountManage');">用户管理</a></li>
+                                <li><a href="{FrameworkRoot}../admin/sys/rightset.aspx">权限设置</a></li>
+                                <li><a href="javascript:GotoCode('{FrameworkRoot}../admin/tag/tags.aspx','BackupManage');">标签管理</a></li>
+                                <li><a href="javascript:GotoCode('{FrameworkRoot}../admin/sys/operatelog.aspx','OperateLogView');">日志查看</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">内容编辑</a>
+                            <ul>
+                                <li><a href="{FrameworkRoot}../admin/news/newsclass.aspx">栏目设置</a></li>
+                                <li><a href="{FrameworkRoot}../admin/news/articles.aspx">内容管理</a></li>
+                                <li><a href="javascript:GotoCode('{FrameworkRoot}../admin/website/flashs.aspx','FlashPicManage');">轮换图片</a></li>
+                                <li><a href="javascript:GotoCode('{FrameworkRoot}../admin/website/friendlink.aspx','FriendLinkManage');">友情链接</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">网站工具</a>
+                            <ul>
+                                <li><a href="javascript:GotoCode('{FrameworkRoot}../admin/siteinfo/statistical.aspx','StatisticalManage');">访客记录</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="javascript:GotoCode('{FrameworkRoot}../admin/sys/app.aspx','WlniaoCloudApp');">云应用</a></li>
+                    </ul>
+                </div>
+            </div>
+            <script>LoginShow();</script>
