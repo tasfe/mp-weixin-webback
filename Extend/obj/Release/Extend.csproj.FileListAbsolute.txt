@@ -1,0 +1,9 @@
+D:\未来鸟产品\Weback\Weback - Qing\Extend\bin\Release\Extend.dll
+D:\未来鸟产品\Weback\Weback - Qing\Extend\bin\Release\Extend.pdb
+D:\未来鸟产品\Weback\Weback - Qing\Extend\bin\Release\Wlniao.WeChat.dll
+D:\未来鸟产品\Weback\Weback - Qing\Extend\bin\Release\XCore.dll
+D:\未来鸟产品\Weback\Weback - Qing\Extend\bin\Release\Wlniao.WeChat.pdb
+D:\未来鸟产品\Weback\Weback - Qing\Extend\bin\Release\Wlniao.WeChat.xml
+D:\未来鸟产品\Weback\Weback - Qing\Extend\obj\Release\ResolveAssemblyReference.cache
+D:\未来鸟产品\Weback\Weback - Qing\Extend\obj\Release\Extend.dll
+D:\未来鸟产品\Weback\Weback - Qing\Extend\obj\Release\Extend.pdb

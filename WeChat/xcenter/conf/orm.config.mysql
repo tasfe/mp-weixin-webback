@@ -1,0 +1,1 @@
+﻿{"ConnectionStringTable":{"default":"Server=127.0.0.1;Port=3306;Database=test;Uid=root;Pwd=root"},"DbType":{"default":"mysql"},"AssemblyList":["XCore","Wlniao.WeChat"],"IsCheckDatabase":true,"TablePrefix":"tb_","ContextCache":true,"ApplicationCache":false,"ApplicationCacheMinutes":0,"ApplicationCacheManager":"","MetaDLL":"","Mapping":[],"Interceptor":[]}

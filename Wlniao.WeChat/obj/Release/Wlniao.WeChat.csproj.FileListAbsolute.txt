@@ -1,0 +1,13 @@
+D:\未来鸟产品\WlniaoWeChat\Weback\Wlniao.WeChat\bin\Release\Wlniao.WeChat.XML
+D:\未来鸟产品\WlniaoWeChat\Weback\Wlniao.WeChat\bin\Release\Wlniao.WeChat.dll
+D:\未来鸟产品\WlniaoWeChat\Weback\Wlniao.WeChat\bin\Release\Wlniao.WeChat.pdb
+D:\未来鸟产品\WlniaoWeChat\Weback\Wlniao.WeChat\bin\Release\XCore.dll
+D:\未来鸟产品\WlniaoWeChat\Weback\Wlniao.WeChat\obj\Release\Wlniao.WeChat.csprojResolveAssemblyReference.cache
+D:\未来鸟产品\WlniaoWeChat\Weback\Wlniao.WeChat\obj\Release\Wlniao.WeChat.dll
+D:\未来鸟产品\WlniaoWeChat\Weback\Wlniao.WeChat\obj\Release\Wlniao.WeChat.pdb
+D:\未来鸟产品\Weback\Weback - Qing\Wlniao.WeChat\bin\Release\Wlniao.WeChat.dll
+D:\未来鸟产品\Weback\Weback - Qing\Wlniao.WeChat\bin\Release\Wlniao.WeChat.pdb
+D:\未来鸟产品\Weback\Weback - Qing\Wlniao.WeChat\bin\Release\XCore.dll
+D:\未来鸟产品\Weback\Weback - Qing\Wlniao.WeChat\obj\Release\ResolveAssemblyReference.cache
+D:\未来鸟产品\Weback\Weback - Qing\Wlniao.WeChat\obj\Release\Wlniao.WeChat.dll
+D:\未来鸟产品\Weback\Weback - Qing\Wlniao.WeChat\obj\Release\Wlniao.WeChat.pdb

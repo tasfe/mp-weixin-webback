@@ -1,0 +1,1 @@
+﻿{"ConnectionStringTable":{"default":"Server=server;Database=database;Uid=user;Pwd=password"},"DbType":{"default":"sqlserver"},"AssemblyList":["XCore","Wlniao.WeChat"],"IsCheckDatabase":true,"TablePrefix":"tb_","ContextCache":true,"ApplicationCache":false,"ApplicationCacheMinutes":0,"ApplicationCacheManager":"","MetaDLL":"","Mapping":[],"Interceptor":[]}

@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{050305C7-3ECA-4394-A999-45A4329D9B2D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XCore</RootNamespace>
+    <AssemblyName>XCore</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="XCenter.Code">
+      <HintPath>..\XCenter\bin\XCenter.Code.dll</HintPath>
+    </Reference>
+    <Reference Include="XCenter.Web">
+      <HintPath>..\XCenter\bin\XCenter.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="XCore">
+      <HintPath>..\XCenter\bin\XCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseServer.cs" />
+    <Compile Include="Caching\ApplicationCache.cs" />
+    <Compile Include="Caching\CacheManager.cs" />
+    <Compile Include="Caching\CategoryCache.cs" />
+    <Compile Include="Caching\IApplicationCache.cs" />
+    <Compile Include="Caching\SysCache.cs" />
+    <Compile Include="cdb.cs" />
+    <Compile Include="cfgHelper.cs" />
+    <Compile Include="cvt.cs" />
+    <Compile Include="cvt_partial.cs" />
+    <Compile Include="DataPage.cs" />
+    <Compile Include="Data\Cache\CacheObject.cs" />
+    <Compile Include="Data\Cache\MemoryDB.cs" />
+    <Compile Include="Data\DatabaseBuilder.cs" />
+    <Compile Include="Data\DbChecker\AccessDatabaseChecker.cs" />
+    <Compile Include="Data\DbChecker\IDatabaseChecker.cs" />
+    <Compile Include="Data\DbChecker\MysqlDatabaseChecker.cs" />
+    <Compile Include="Data\DbChecker\SQLServerDatabaseChecker.cs" />
+    <Compile Include="Data\DbConfig.cs" />
+    <Compile Include="Data\DbConst.cs" />
+    <Compile Include="Data\DbContext.cs" />
+    <Compile Include="Data\Dialect\AccessDialect.cs" />
+    <Compile Include="Data\Dialect\IDatabaseDialect.cs" />
+    <Compile Include="Data\Dialect\MysqlDialect.cs" />
+    <Compile Include="Data\Dialect\SQLServerDialect.cs" />
+    <Compile Include="Data\EasyDB.cs" />
+    <Compile Include="Data\Enum\ConnectionItemType.cs" />
+    <Compile Include="Data\Enum\DatabaseType.cs" />
+    <Compile Include="Data\Enum\ParameterType.cs" />
+    <Compile Include="Data\Factory\DataFactory.cs" />
+    <Compile Include="Data\Factory\DbFactoryBase.cs" />
+    <Compile Include="Data\Factory\DbTypeChecker.cs" />
+    <Compile Include="Data\Factory\MsSqlDbFactory.cs" />
+    <Compile Include="Data\Factory\MysqlFactory.cs" />
+    <Compile Include="Data\Factory\MysqlFactory_partial.cs" />
+    <Compile Include="Data\Factory\OleDbFactory.cs" />
+    <Compile Include="Data\Factory\OleDbFactory_partial.cs" />
+    <Compile Include="Data\Factory\OracleFactory.cs" />
+    <Compile Include="Data\Factory\OracleFactory_partial.cs" />
+    <Compile Include="Data\KeyValue.cs" />
+    <Compile Include="Data\TableBuilder\AccessTableBuilder.cs" />
+    <Compile Include="Data\TableBuilder\MySqlTableBuilder.cs" />
+    <Compile Include="Data\TableBuilder\SqlServerTableBuilder.cs" />
+    <Compile Include="Data\TableBuilder\TableBuilderBase.cs" />
+    <Compile Include="db.cs" />
+    <Compile Include="DI\MapItem.cs" />
+    <Compile Include="DI\ObjectContext.cs" />
+    <Compile Include="Encryptor.cs" />
+    <Compile Include="Entity.cs" />
+    <Compile Include="IDto.cs" />
+    <Compile Include="IEntity.cs" />
+    <Compile Include="IO\Base64.cs" />
+    <Compile Include="IO\FileEx.cs" />
+    <Compile Include="IO\filesys.cs" />
+    <Compile Include="IO\LinuxPath.cs" />
+    <Compile Include="IO\PathTool.cs" />
+    <Compile Include="IO\WindownsPath.cs" />
+    <Compile Include="IO\XMLHelper.cs" />
+    <Compile Include="IPageList.cs" />
+    <Compile Include="Lang\Lang.cs" />
+    <Compile Include="Lang\LanguageSetting.cs" />
+    <Compile Include="Log\FileLogger.cs" />
+    <Compile Include="Log\ILog.cs" />
+    <Compile Include="Log\ILogMsg.cs" />
+    <Compile Include="Log\LogConfig.cs" />
+    <Compile Include="Log\LoggerForDB.cs" />
+    <Compile Include="Log\LoggerUtil.cs" />
+    <Compile Include="Log\LogLevel.cs" />
+    <Compile Include="Log\LogManager.cs" />
+    <Compile Include="Log\LogMessage.cs" />
+    <Compile Include="Log\LogMsg.cs" />
+    <Compile Include="Log\NullLogger.cs" />
+    <Compile Include="ObjectBase.cs" />
+    <Compile Include="ORM\Attribute\CacheCountAttribute.cs" />
+    <Compile Include="ORM\Attribute\ColumnAttribute.cs" />
+    <Compile Include="ORM\Attribute\DatabaseAttribute.cs" />
+    <Compile Include="ORM\Attribute\DateTimeAttribute.cs" />
+    <Compile Include="ORM\Attribute\DecimalAttribute.cs" />
+    <Compile Include="ORM\Attribute\DefaultAttribute.cs" />
+    <Compile Include="ORM\Attribute\HtmlTextAttribute.cs" />
+    <Compile Include="ORM\Attribute\ICacheAttribute.cs" />
+    <Compile Include="ORM\Attribute\LabelAttribute.cs" />
+    <Compile Include="ORM\Attribute\LongTextAttribute.cs" />
+    <Compile Include="ORM\Attribute\MoneyAttribute.cs" />
+    <Compile Include="ORM\Attribute\NotSaveAttribute.cs" />
+    <Compile Include="ORM\Attribute\NotSerializeAttribute.cs" />
+    <Compile Include="ORM\Attribute\TableAttribute.cs" />
+    <Compile Include="ORM\Attribute\TinyIntAttribute.cs" />
+    <Compile Include="ORM\Attribute\Validation\EmailAttribute.cs" />
+    <Compile Include="ORM\Attribute\Validation\NotNullAttribute.cs" />
+    <Compile Include="ORM\Attribute\Validation\PatternAttribute.cs" />
+    <Compile Include="ORM\Attribute\Validation\UniqueAttribute.cs" />
+    <Compile Include="ORM\Attribute\Validation\ValidationAttribute.cs" />
+    <Compile Include="ORM\Caching\ApplicationPool.cs" />
+    <Compile Include="ORM\Caching\CacheKey.cs" />
+    <Compile Include="ORM\Caching\CacheTime.cs" />
+    <Compile Include="ORM\Caching\ContextCache.cs" />
+    <Compile Include="ORM\Caching\ContextPool.cs" />
+    <Compile Include="ORM\Caching\IObjectPool.cs" />
+    <Compile Include="ORM\Caching\ObjectPool.cs" />
+    <Compile Include="ORM\Caching\TimestampKey.cs" />
+    <Compile Include="ORM\CommonBase.cs" />
+    <Compile Include="ORM\EntityInfo.cs" />
+    <Compile Include="ORM\EntityPropertyInfo.cs" />
+    <Compile Include="ORM\IInterceptor.cs" />
+    <Compile Include="ORM\Includer.cs" />
+    <Compile Include="ORM\MappingClass.cs" />
+    <Compile Include="ORM\MappingInfo.cs" />
+    <Compile Include="ORM\MetaList.cs" />
+    <Compile Include="ORM\NoCacheDbFinder.cs" />
+    <Compile Include="ORM\ObjectDB.cs" />
+    <Compile Include="ORM\ObjectInfo.cs" />
+    <Compile Include="ORM\Operation\ConditionInfo.cs" />
+    <Compile Include="ORM\Operation\CountOperation.cs" />
+    <Compile Include="ORM\Operation\DeleteOperation.cs" />
+    <Compile Include="ORM\Operation\FindAllOperation.cs" />
+    <Compile Include="ORM\Operation\FindByIdOperation.cs" />
+    <Compile Include="ORM\Operation\FindByOperation.cs" />
+    <Compile Include="ORM\Operation\FinderBase.cs" />
+    <Compile Include="ORM\Operation\FindPageOperation.cs" />
+    <Compile Include="ORM\Operation\FindRelationOperation.cs" />
+    <Compile Include="ORM\Operation\InsertOperation.cs" />
+    <Compile Include="ORM\Operation\PageCondition.cs" />
+    <Compile Include="ORM\Operation\UpdateOperation.cs" />
+    <Compile Include="ORM\Page\ObjectPage.cs" />
+    <Compile Include="ORM\Page\ObjectPage_partial.cs" />
+    <Compile Include="ORM\Query.cs" />
+    <Compile Include="ORM\SqlBuilder.cs" />
+    <Compile Include="ORM\Utils\CacheUtil.cs" />
+    <Compile Include="ORM\Utils\EntityPropertyUtil.cs" />
+    <Compile Include="ORM\Utils\FillUtil.cs" />
+    <Compile Include="ORM\Utils\OrmUtil.cs" />
+    <Compile Include="ORM\Utils\SqlUtil.cs" />
+    <Compile Include="ORM\Utils\ValueSetter.cs" />
+    <Compile Include="ORM\Utils\ValueSetter_partial.cs" />
+    <Compile Include="ORM\Validator.cs" />
+    <Compile Include="ORM\xQuery.cs" />
+    <Compile Include="PageList.cs" />
+    <Compile Include="PathHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reflection\AccessorUtil.cs" />
+    <Compile Include="Reflection\CodeDomPropertyAccessor.cs" />
+    <Compile Include="Reflection\CodeRunner.cs" />
+    <Compile Include="Reflection\IAccessorUtil.cs" />
+    <Compile Include="Reflection\IConcreteFactory.cs" />
+    <Compile Include="Reflection\ILPropertyAccessor.cs" />
+    <Compile Include="Reflection\IPropertyAccessor.cs" />
+    <Compile Include="Reflection\OptimizeMode.cs" />
+    <Compile Include="Reflection\ReflectionUtil.cs" />
+    <Compile Include="Reflection\rft.cs" />
+    <Compile Include="RegPattern.cs" />
+    <Compile Include="Result.cs" />
+    <Compile Include="Serialization\JSON.cs" />
+    <Compile Include="Serialization\JsonParser.cs" />
+    <Compile Include="Serialization\JsonParser\ArrayJsonParser.cs" />
+    <Compile Include="Serialization\JsonParser\CharSource.cs" />
+    <Compile Include="Serialization\JsonParser\InitJsonParser.cs" />
+    <Compile Include="Serialization\JsonParser\JsonParserBase.cs" />
+    <Compile Include="Serialization\JsonParser\JsonParserException.cs" />
+    <Compile Include="Serialization\JsonParser\ObjectJsonParser.cs" />
+    <Compile Include="Serialization\JsonParser\StringJsonParser.cs" />
+    <Compile Include="Serialization\JsonParser\ValueJsonParser.cs" />
+    <Compile Include="Serialization\JsonString.cs" />
+    <Compile Include="Serialization\SimpleJsonString.cs" />
+    <Compile Include="strUtil.cs" />
+    <Compile Include="System.cs" />
+    <Compile Include="TemplateEngine\Action.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TemplateEngine\PageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TemplateEngine\TeConfig.cs" />
+    <Compile Include="TemplateEngine\TempInfo.cs" />
+    <Compile Include="TemplateEngine\XCoreModule.cs" />
+    <Compile Include="Tree.cs" />
+    <Compile Include="UrlInfo.cs" />
+    <Compile Include="Util.cs" />
+    <Compile Include="Web\AshxHelper.cs" />
+    <Compile Include="Web\CurrentRequest.cs" />
+    <Compile Include="Web\Html.cs" />
+    <Compile Include="Web\HttpImageHandler.cs" />
+    <Compile Include="Web\Jobs\IWebJobItem.cs" />
+    <Compile Include="Web\Jobs\WebJob.cs" />
+    <Compile Include="Web\Jobs\WebJobStarter.cs" />
+    <Compile Include="Web\KeyValue.cs" />
+    <Compile Include="Web\PostAndGet.cs" />
+    <Compile Include="Web\SystemInfo.cs" />
+    <Compile Include="Web\TemplateEngine.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

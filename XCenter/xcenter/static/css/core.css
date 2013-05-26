@@ -1,0 +1,28 @@
+* {margin:0px;padding:0px;border:0;}
+body{background:#fff url('../assets/repgray2.png') 0 0 repeat-x;font-family: Tahoma, Verdana, Arial, sans-serif;font-size:12px;}
+p{color:#aaaaaa;}
+ul{list-style-type:none;}
+a{text-decoration:none;color:#bbb;}
+h1, h2, h3, h4, h5, h6 {clear:both;font-family:"Modata", Tahoma, Arial, sans-serif;font-weight:normal;}
+#container {min-width:960px;max-width:1600px;margin:0 auto;}
+#top {height:90px;}
+.logo {float:left;display:inline;width:361px;}
+.meta {width:380px; display:inline;float:right;padding-right:10px; padding-top:10px; text-align:right;}
+.meta p {margin:10px 0px;}
+.meta ul li {float:right;background:url('../assets/glass.png') 50% 50% repeat-x; border:1px solid #333333; margin-left:8px;font-size:10px;}
+.meta ul li .ui-icon {float:left;}
+.meta ul li a {padding:3px 8px 3px 2px;color:#333333;}
+#navbar ul.nav{height:43px;}
+ul.nav li {float:left;position:relative;left:0;top:0;}
+ul.nav li a {color:#ccc;text-decoration:none;font-size:12px;padding:7px 18px 8px 18px;display:block;}
+ul.nav li ul {width:128px; position:absolute;left:-1000;z-index:999;}
+ul.nav li ul li {padding:0px 0px 0px 3px;width:128px;background:#353535;z-index:999;}
+ul.nav li a:hover,ul.nav li ul li:hover a{background:#202020;}
+ul.nav li:sfhover ul{width:127px;left:0;z-index:999;}
+#main{width:100%;}
+#sidebar {width:240px;padding:0px 15px;}
+#mainLeft{width:290px;background:url('../assets/siderep.png') 185px 0px repeat-y; vertical-align:top;}
+#mainRight{vertical-align:top; padding:20px 10px 20px 0px;}
+#footer{clear:both;background:#202020;text-align:center; padding:3px 5px 8px 5px;}
+#footer a:hover{color:#FFFFFF; text-decoration:underline;}
+

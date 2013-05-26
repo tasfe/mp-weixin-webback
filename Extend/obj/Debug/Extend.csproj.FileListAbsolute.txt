@@ -1,0 +1,16 @@
+F:\新建文件夹\Weback.SourceCode.130523\Extend\bin\Debug\Extend.dll
+F:\新建文件夹\Weback.SourceCode.130523\Extend\bin\Debug\Extend.pdb
+F:\新建文件夹\Weback.SourceCode.130523\Extend\bin\Debug\Wlniao.WeChat.dll
+F:\新建文件夹\Weback.SourceCode.130523\Extend\bin\Debug\XCore.dll
+F:\新建文件夹\Weback.SourceCode.130523\Extend\bin\Debug\Wlniao.WeChat.pdb
+F:\新建文件夹\Weback.SourceCode.130523\Extend\obj\Debug\ResolveAssemblyReference.cache
+F:\新建文件夹\Weback.SourceCode.130523\Extend\obj\Debug\Extend.dll
+F:\新建文件夹\Weback.SourceCode.130523\Extend\obj\Debug\Extend.pdb
+F:\wwwroot\mp\Extend\bin\Debug\Extend.dll
+F:\wwwroot\mp\Extend\bin\Debug\Extend.pdb
+F:\wwwroot\mp\Extend\bin\Debug\Wlniao.WeChat.dll
+F:\wwwroot\mp\Extend\bin\Debug\XCore.dll
+F:\wwwroot\mp\Extend\bin\Debug\Wlniao.WeChat.pdb
+F:\wwwroot\mp\Extend\obj\Debug\ResolveAssemblyReference.cache
+F:\wwwroot\mp\Extend\obj\Debug\Extend.dll
+F:\wwwroot\mp\Extend\obj\Debug\Extend.pdb

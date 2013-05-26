@@ -1,0 +1,23 @@
+E:\项目\wwb调试\审核后台源码\未来鸟WebEngine建站引擎\XCenter.Web\bin\XCenter.Web.dll
+E:\项目\wwb调试\审核后台源码\未来鸟WebEngine建站引擎\XCenter.Web\bin\XCenter.Web.pdb
+E:\项目\wwb调试\审核后台源码\未来鸟WebEngine建站引擎\XCenter.Web\bin\Wlniao.dll
+E:\项目\wwb调试\审核后台源码\未来鸟WebEngine建站引擎\XCenter.Web\bin\XCenter.Code.dll
+E:\项目\wwb调试\审核后台源码\未来鸟WebEngine建站引擎\XCenter.Web\bin\XCore.dll
+E:\项目\wwb调试\审核后台源码\未来鸟WebEngine建站引擎\XCenter.Web\bin\Wlniao.pdb
+E:\项目\wwb调试\审核后台源码\未来鸟WebEngine建站引擎\XCenter.Web\bin\XCenter.Code.pdb
+E:\项目\wwb调试\审核后台源码\未来鸟WebEngine建站引擎\XCenter.Web\obj\Debug\XCenter.Web.csprojResolveAssemblyReference.cache
+E:\项目\wwb调试\审核后台源码\未来鸟WebEngine建站引擎\XCenter.Web\obj\Debug\XCenter.Web.dll
+E:\项目\wwb调试\审核后台源码\未来鸟WebEngine建站引擎\XCenter.Web\obj\Debug\XCenter.Web.pdb
+F:\wwwroot\11\XCenter.Web\bin\XCenter.Web.dll
+F:\wwwroot\11\XCenter.Web\bin\XCenter.Web.pdb
+F:\wwwroot\11\XCenter.Web\bin\Wlniao.dll
+F:\wwwroot\11\XCenter.Web\bin\XCenter.Code.dll
+F:\wwwroot\11\XCenter.Web\bin\XCore.dll
+F:\wwwroot\11\XCenter.Web\bin\Wlniao.pdb
+F:\wwwroot\11\XCenter.Web\bin\XCenter.Code.pdb
+F:\wwwroot\11\XCenter.Web\obj\Debug\ResolveAssemblyReference.cache
+F:\wwwroot\11\XCenter.Web\obj\Debug\XCenter.Web.dll
+F:\wwwroot\11\XCenter.Web\obj\Debug\XCenter.Web.pdb
+C:\Documents and Settings\Administrator\桌面\Weback.SourceCode.130523\XCenter.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Weback.SourceCode.130523\XCenter.Web\obj\Debug\XCenter.Web.dll
+C:\Documents and Settings\Administrator\桌面\Weback.SourceCode.130523\XCenter.Web\obj\Debug\XCenter.Web.pdb

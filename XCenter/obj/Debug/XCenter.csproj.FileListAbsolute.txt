@@ -1,0 +1,5 @@
+F:\wwwroot\mp\XCenter\bin\Debug\XCenter.dll
+F:\wwwroot\mp\XCenter\bin\Debug\XCenter.pdb
+F:\wwwroot\mp\XCenter\obj\Debug\ResolveAssemblyReference.cache
+F:\wwwroot\mp\XCenter\obj\Debug\XCenter.dll
+F:\wwwroot\mp\XCenter\obj\Debug\XCenter.pdb

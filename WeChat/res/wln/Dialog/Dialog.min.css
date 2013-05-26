@@ -1,0 +1,18 @@
+.wln-dialog 
+{
+    font-size: 12px;
+    background: #fff;
+    z-index: 10000; 
+    display: none; 
+    border:#87C6F9 1px solid;
+    box-shadow: 0 0 3px rgba(103, 166, 217, 1);
+}
+.wln-dialog-hd
+{
+    width:100%; height:30px; background-color:#999999; text-align:right;
+}
+.wln-dialog-bd
+{
+    background-color:#ffffff;
+    z-index: 10001; 
+}
